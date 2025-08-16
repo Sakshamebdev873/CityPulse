@@ -36,7 +36,7 @@ CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 1000))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 200))
 RETRIEVER_K = int(os.getenv("RETRIEVER_K", 4))
 EXCERPT_LENGTH = int(os.getenv("EXCERPT_LENGTH", 500))
-EXPECTED_DATASET_SIZE = int(os.getenv("EXPECTED_DATASET_SIZE", 400))
+EXPECTED_DATASET_SIZE = int(os.getenv("EXPECTED_DATASET_SIZE", 1000))
 
 async def main():
     # 1. Load dataset
