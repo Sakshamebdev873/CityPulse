@@ -142,7 +142,7 @@ async def main():
 
     # 8. Initialize LLM
     try:
-        model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+        model_name = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
         available_models = ["gemini-1.5-flash", "gemini-1.5-pro","gemini-2.0-flash"]
         if model_name not in available_models:
             logger.warning(f"Model {model_name} not recognized. Falling back to gemini-1.5-flash.")
