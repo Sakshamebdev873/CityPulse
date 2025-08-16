@@ -21,12 +21,15 @@
   "homepage": "https://github.com/Sakshamebdev873/CityPulse#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@langchain/google-genai": "^0.2.16",
     "axios": "^1.11.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "langchain": "^0.3.30",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.10",
+    "prisma": "^6.14.0",
     "socket.io": "^4.8.1"
   }
 }
